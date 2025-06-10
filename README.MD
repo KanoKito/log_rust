@@ -19,19 +19,20 @@
 ## Установка
 1. Клонируйте репозиторий:
 2. git clone https://github.com/your-username/log-parser.git
-3. Установите зависимости:
-- cargo build
+3. Установите зависимости: cargo build
+
 ## Использование
 - cargo run -- <input_log_file> <output_file>
 ## Структура проекта
+
 log-parser/
 ├── src
-│   └── main.rs
+│ └── main.rs
 ├── Cargo.toml
 └── README.md
 
 ## Пример лога
-```json
+```sh
 128.148.46.126 - - [20/Jun/2024:12:56:06 +0300] "GET /forecast-system%20engine_high-level.css HTTP/1.1" 200 1359 "-" "Mozilla/5.0 (Windows NT 5.0; en-US; rv:1.9.2.20) Gecko/1990-13-08 Firefox/37.0"
 52.56.245.28 - - [20/Jun/2024:12:56:06 +0300] "GET /archive/optimizing_zero%20defect.jpg HTTP/1.1" 200 2551 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5321 (KHTML, like Gecko) Chrome/40.0.848.0 Mobile Safari/5321"
 122.100.81.4 - - [20/Jun/2024:12:56:06 +0300] "POST /internet%20solution-Monitored%20Graphical%20User%20Interface/client-driven.png HTTP/1.1" 400 88 "-" "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_10 rv:6.0) Gecko/1957-01-07 Firefox/37.0"
@@ -41,7 +42,7 @@ log-parser/
 218.233.62.252 - - [20/Jun/2024:12:56:06 +0300] "GET /exuding/Re-contextualized.gif HTTP/1.1" 200 1399 "-" "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_9_4 rv:5.0) Gecko/1983-23-03 Firefox/36.0"
 ```
 ## Пример вывода
-```json
+```sh
 192.168.1.1:Linux:2
 192.168.1.2:Windows:1
 192.168.1.3:Macintosh:3
