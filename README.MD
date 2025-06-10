@@ -25,11 +25,11 @@
 - cargo run -- <input_log_file> <output_file>
 ## Структура проекта
 
-log-parser/
-├── src
-│   └── main.rs
-├── Cargo.toml
-└── README.md
+* `log-parser/`;
+* `├── src`;
+* `│   └── main.rs`;
+* `├── Cargo.toml`;
+* `└── README.md`;
 
 
 ## Пример лога
