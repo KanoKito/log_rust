@@ -18,7 +18,7 @@
 - Cargo для управления зависимостями
 ## Установка
 1. Клонируйте репозиторий:
-2. git clone https://github.com/your-username/log-parser.git
+2. git clone https://github.com/KanoKito/log-parser.git
 3. Установите зависимости: cargo build
 
 ## Использование
