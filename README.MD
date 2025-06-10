@@ -27,9 +27,10 @@
 
 log-parser/
 ├── src
-│ └── main.rs
+│   └── main.rs
 ├── Cargo.toml
 └── README.md
+
 
 ## Пример лога
 ```sh
